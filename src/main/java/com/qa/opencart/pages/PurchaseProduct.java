@@ -76,6 +76,7 @@ public class PurchaseProduct {
 	public void checkout(String product,String quantity) {
 		if(addToCart(product,quantity)) {
 			eleUtil.doClick(checkoutLink);
+			System.out.println("dummy");
 		}
 	}
 	
